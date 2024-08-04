@@ -65,7 +65,7 @@ header {
     z-index:1;
     background-color: var(--main-color-light);
     box-shadow: rgb(0, 0, 0, 0.2) 0 2px 5px 2px;
-    padding: 1rem;
+    padding: .4rem;
     display: flex;
     justify-content: center;
 }
@@ -96,7 +96,7 @@ nav {
     position: relative;
     z-index: 1;
     background-color: var(--main-color-medium);
-    padding: .5rem;
+    padding: .2rem;
     border-bottom: 2px solid var(--main-color-medium);
     box-shadow: rgb(0, 0, 0, 0.2) 0 2px 5px 2px
 }
@@ -129,7 +129,7 @@ main {
 
     main .task {
         position: absolute;
-        width:400px;
+        width:15rem;
 
         transform-origin: center center;
         display: flex;
@@ -142,7 +142,7 @@ main {
             cursor: pointer;
         }
 
-    main .task h1 {
+    main .task p {
         text-align:center;
         position:absolute;
         top: 50%;

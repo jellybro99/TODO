@@ -169,7 +169,7 @@ function addToPage(task) {
     taskCardImage.setAttribute("src", "./notepad.png");
     taskCard.appendChild(taskCardImage);
 
-    let taskCardText = document.createElement("h1");
+    let taskCardText = document.createElement("p");
     taskCardText.textContent = task.name;
     taskCard.appendChild(taskCardText);
 
