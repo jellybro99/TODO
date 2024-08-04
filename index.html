@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./icon.png" />
+    <title>just to-do something</title>
+</head>
+<body>
+    <header>
+        <div id="logo" class="reset">
+            <h1 id="logo-main">just to-do something</h1>
+            <h6 id="logo-blurb">an intricate task management suite</h6>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="reset">reset</li>
+            <li class="create">create to-do</li>
+        </ul>
+    </nav>
+    <main>
+
+    </main>
+    <div id="popup">
+        <form action="get">
+            <div id="top-layer">
+                <h3 id="form-title">create to-do</h3>
+                <h3 id="cornerbob" class="close">x</h3>
+            </div>
+            <div id="title-date">
+                <input type="text" name="title" id="title" placeholder="title" maxlength="30" required/>
+                <input type="date" name="date" id="date" />
+            </div>
+            <div id="description-container">
+                <textarea name="description" id="description" placeholder="details"></textarea>
+            </div>
+            <div id="flow-controls">
+                <button id="submit" type="submit" title="save"><i class='bx bxs-save'></i></button>
+                <button id="complete" type="button" title="complete"><i class='bx bx-check'></i></button>
+                <button id="edit" type="button" title="edit"><i class='bx bx-edit-alt'></i></button>
+                <button id="trash" type="button" title="delete"><i class='bx bxs-trash'></i></button>
+                <button id="close" type="button" title="close"><i class='bx bx-x'></i></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<script src="./script.js"></script>
